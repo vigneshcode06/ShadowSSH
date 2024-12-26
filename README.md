@@ -30,20 +30,16 @@ A **powerful and deceptive Python-based honeypot** designed to simulate an SSH s
 
 Install dependencies using the command:  
 ```bash
-pip install -r requirements.txt
-🚀 Usage
-Clone the repository:
+
 
 bash
 Copy code
 git clone https://github.com/your-repo-name/FakeSSH.git
 cd FakeSSH
-Create your custom host key and run the honeypot:
+Run the setup.py python file by the command python3 setup.py
+then run the Shadowssh.py.py 
 
-bash
-Copy code
-python3 honeypot.py
-Connect to the honeypot using an SSH client:
+
 
 bash
 Copy code
