@@ -12,7 +12,7 @@ echo "🔄 Setting up ShadowSSH..."
 PROJECT_NAME="shadossh"
 INSTALL_DIR="/usr/bin"
 VENV_DIR="/opt/shadowssh/env"
-SCRIPT_PATH="$(pwd)/shadossh.py"
+SCRIPT_PATH="$(pwd)/shadowssh.py"
 
 # Ensure the script exists
 if [ ! -f "$SCRIPT_PATH" ]; then
