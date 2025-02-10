@@ -18,24 +18,37 @@ pwd = ["/home"]
 # Simulate a host key
 host_key = paramiko.RSAKey.generate(2048)
 
-# Display welcome logo
-os.system("clear")
-os.system("figlet -f slant \"ShadowSSH\" | lolcat")
-
 # Function to print text with typing effect
 def type_text(text, color_code, speed=0.03):
     for char in text:
         sys.stdout.write(f"\033[{color_code}m{char}\033[0m")
         sys.stdout.flush()
         time.sleep(speed)  # Adjust for typing speed
-    print()  # To move to the next line after the text finishes
+    print()  # Move to the next line after the text finishes
+
+# Display disclaimer and get user consent
+def disclaimer():
+    os.system("clear")
+    os.system("figlet -f slant \"ShadowSSH\" | lolcat")
+    print("\n⚠️  This tool is for EDUCATIONAL PURPOSES ONLY! ⚠️")
+    print("❌ Do NOT use this tool for any illegal activities.")
+    print("✅ The developer is NOT responsible for any misuse.\n")
+    
+    user_input = input("Do you agree to use this tool responsibly? (Y/N): ").strip().lower()
+    if user_input != 'y':
+        print("❌ Access Denied. Exiting...")
+        sys.exit()
 
 # Display the intro text
+
 def home_logo():
-    # Set both texts to hacker green (Bright Green - 92)
-    type_text("   WELCOME TO SHADOWSSH - THE DARK SIDE OF CYBERSPACE", "92", speed=0.02)  # Bright Green text
+    os.system("clear")
+    os.system("figlet -f slant \"ShadowSSH\" | lolcat")
+    type_text(" 🚀 WELCOME TO SHADOWSSH -  ", "92", speed=0.02)  
     time.sleep(0.5)  # Pause before next line
-    type_text("   POWERED BY ZENTHHACKER.", "92", speed=0.02)  # Bright Green text
+    type_text("👨‍💻 DEVELOPED BY VIGNESH ", "92", speed=0.02)  
+    time.sleep(0.5)  # Pause before next line
+    type_text(" 🔗 GITHUB REPO: https://github.com/vigneshcode06", "92", speed=0.02)  
     print("\n")
 
 # SSH Server Interface
@@ -83,7 +96,6 @@ def command_handler(cmd):
     if cmd == "pwd":
         return f"\r\n{get_pwd()} \r\n$ "
     elif cmd == "ls":
-        # Simulated directory contents
         return f"\r\nfile1.txt  file2.log  folder1  folder2 \r\n$ "
     elif "cd " in cmd:
         return change_directory(cmd)
@@ -100,14 +112,14 @@ def handle_client(client_socket):
 
     try:
         transport.start_server(server=server)
-        chan = transport.accept(20)  # Wait for a channel to open
+        chan = transport.accept(20)  
 
         if chan is None:
             print("[-] No channel request")
             return
 
         print("[+] Channel opened")
-        server.event.wait(10)  # Wait for the shell request
+        server.event.wait(10)  
 
         if not server.event.is_set():
             print("[-] No shell request")
@@ -157,6 +169,6 @@ def start_honeypot():
         sys.exit()
 
 if __name__ == "__main__":
+    disclaimer()  # Show disclaimer before running
     home_logo()  # Display intro with animation
     start_honeypot()  # Start the honeypot
-
