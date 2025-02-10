@@ -1,3 +1,7 @@
+Here's the refined README.md file for your Fake SSH Honeypot project:
+
+markdown
+Copy code
 # 🛡️ Fake SSH Honeypot  
 
 A **powerful and deceptive Python-based honeypot** designed to simulate an SSH server. This tool helps security enthusiasts, ethical hackers, and researchers analyze unauthorized access attempts and gather intelligence on malicious activities.  
@@ -26,34 +30,16 @@ A **powerful and deceptive Python-based honeypot** designed to simulate an SSH s
 
 Install dependencies using the command:  
 ```bash
-git clone https://github.com/your-repo-name/FakeSSH.git
-cd FakeSSH
-🏃 Running the Installer
-To install the tool, run the install.sh script:
+
 
 bash
-Copy
-Edit
-sudo bash install.sh
-This will set up the tool and create a shortcut command.
+Copy code
+git clone https://github.com/vigneshcode06/ShadowSSH.git
+cd ShadowSSH
+chmod +x install.sh
+sudo ./install.sh
 
-🚀 Running ShadowSSH
-After installation, simply use:
 
-bash
-Copy
-Edit
-shadowssh
-This will launch the honeypot.
-
-🔍 Connecting to the Honeypot
-Run the following SSH command to test:
-
-bash
-Copy
-Edit
-ssh admin@<your-ip> -p 2222
-Analyze the activity logs for insights and learning.
 
 🛠️ Customization
 You can modify the following aspects to tailor the honeypot to your needs:
@@ -63,9 +49,4 @@ Commands: Extend the command_handler function to add more fake commands or modif
 ⚠️ Warning
 This tool is for educational purposes only! Unauthorized use of this tool on networks that you do not own or have explicit permission to test is illegal and unethical. Always obtain proper authorization before using this tool in real-world environments.
 
-ShadowSSH
-r
-Copy
-Edit
-
-Now it includes how to run `install.sh` and execute `shadowssh`. Let me know if you need any modifications! 🚀
+#ShadowSSH
