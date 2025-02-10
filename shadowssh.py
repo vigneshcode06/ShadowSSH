@@ -46,7 +46,7 @@ def home_logo():
     os.system("figlet -f slant \"ShadowSSH\" | lolcat")
     type_text(" 🚀 WELCOME TO SHADOWSSH -  ", "92", speed=0.02)  
     time.sleep(0.5)  # Pause before next line
-    type_text("👨‍💻 DEVELOPED BY VIGNESH ", "92", speed=0.02)  
+    type_text("💻 DEVELOPED BY VIGNESH ", "92", speed=0.02)  
     time.sleep(0.5)  # Pause before next line
     type_text(" 🔗 GITHUB REPO: https://github.com/vigneshcode06", "92", speed=0.02)  
     print("\n")
