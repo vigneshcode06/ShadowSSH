@@ -43,7 +43,6 @@ mv "$SCRIPT_PATH" "/opt/shadowssh/$PROJECT_NAME.py"
 chmod +x "/opt/shadowssh/$PROJECT_NAME.py"
 
 # Create a shortcut command
-echo "🔗 Creating shortcut command..."
 echo "#!/bin/bash" > /usr/bin/shadowssh
 echo "$VENV_DIR/bin/python3 /opt/shadowssh/$PROJECT_NAME.py" >> /usr/bin/shadowssh
 chmod +x /usr/bin/shadowssh
