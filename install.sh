@@ -36,7 +36,7 @@ echo "📥 Installing required Python packages..."
 "$VENV_DIR/bin/pip" install --break-system-packages paramiko
 
 # Move the Python project to the installation directory
-echo "🚀 Moving ShadowSSH to $INSTALL_DIR..."
+
 mv "$SCRIPT_PATH" "/opt/shadowssh/$PROJECT_NAME.py"
 
 # Make it executable
