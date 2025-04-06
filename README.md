@@ -1,6 +1,4 @@
 
-markdown
-Copy code
 # 🛡️ Fake SSH Honeypot  
 
 A **powerful and deceptive Python-based honeypot** designed to simulate an SSH server. This tool helps security enthusiasts, ethical hackers, and researchers analyze unauthorized access attempts and gather intelligence on malicious activities.  
