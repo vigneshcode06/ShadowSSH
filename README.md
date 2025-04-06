@@ -1,4 +1,7 @@
-[Watch on GitHub](https://github.com/vigneshcode06/ShadowSSH/blob/main/video/demo.mp4)
+## 🎥 ShadowSSH Demo
+
+[video/demo.mp4](video/demo.mp4)
+
 
 
 
