@@ -1,4 +1,7 @@
-https://github.com/vigneshcode06/ShadowSSH/blob/main/video/demo.mp4
+<video width="720" height="420" controls>
+  <source src="https://github.com/vigneshcode06/ShadowSSH/raw/main/video/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 
