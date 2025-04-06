@@ -1,12 +1,3 @@
-## 🎥 ShadowSSH Demo
-
-[video/demo.mp4](video/demo.mp4)
-
-
-
-
-
-Here's the refined README.md file for your Fake SSH Honeypot project:
 
 markdown
 Copy code
@@ -57,9 +48,4 @@ Commands: Extend the command_handler function to add more fake commands or modif
 ⚠️ Warning
 This tool is for educational purposes only! Unauthorized use of this tool on networks that you do not own or have explicit permission to test is illegal and unethical. Always obtain proper authorization before using this tool in real-world environments.
 
-
 #ShadowSSH
-
-
-
-
