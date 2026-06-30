@@ -36,8 +36,6 @@ cd ShadowSSH
 chmod +x install.sh
 sudo ./install.sh
 
-
-
 🛠️ Customization
 You can modify the following aspects to tailor the honeypot to your needs:
 
