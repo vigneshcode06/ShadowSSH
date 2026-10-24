@@ -2,7 +2,7 @@
 
 # Check if the script is run as root
 if [ "$EUID" -ne 0 ]; then
-    echo "❌ Try to run this file as sudo!"
+    echo "Try to run this file as sudo!"
     exit 1
 fi
 
@@ -16,7 +16,7 @@ SCRIPT_PATH="$(pwd)/shadowssh.py"
 
 # Ensure the script exists
 if [ ! -f "$SCRIPT_PATH" ]; then
-    echo "❌ Error: shadossh.py not found in the current directory!"
+    echo "Error: shadossh.py not found in the current directory!"
     exit 1
 fi
 
