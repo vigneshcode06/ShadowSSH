@@ -31,7 +31,7 @@ def disclaimer():
     os.system("clear")
     os.system("figlet -f slant \"ShadowSSH\" | lolcat")
     print("\n⚠️  This tool is for EDUCATIONAL PURPOSES ONLY! ⚠️")
-    print("❌ Do NOT use this tool for any illegal activities.")
+    print(" Do NOT use this tool for any illegal activities.")
     print("✅ The developer is NOT responsible for any misuse.\n")
     
     user_input = input("Do you agree to use this tool responsibly? (Y/N): ").strip().lower()
