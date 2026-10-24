@@ -51,10 +51,10 @@ chmod +x /usr/bin/shadowssh
 echo "File has been secured"
 rm -f "$SCRIPT_PATH"
 echo "═════════════════════════════════════════════════════════════════════════════════"
-echo "🚀 Welcome, User! We're thrilled to see you here! 🎉"
-echo "✅ The tool has been successfully installed on your system."
-echo "🔓 New Command Unlocked: shadowssh"
-echo "⚡ Use this command to access the tool: Just type 'shadowssh' in a new terminal."
+echo " Welcome, User! We're thrilled to see you here! "
+echo " The tool has been successfully installed on your system."
+echo " New Command Unlocked: shadowssh"
+echo " Use this command to access the tool: Just type 'shadowssh' in a new terminal."
 echo "═════════════════════════════════════════════════════════════════════════════════"
 
 rm -f install.sh
