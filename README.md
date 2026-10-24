@@ -9,15 +9,15 @@ A **powerful and deceptive Python-based honeypot** designed to simulate an SSH s
 
 ## ⚙️ Features  
 
-- 🎭 **Simulated SSH environment:** Mimics an authentic SSH server experience.  
-- 🗝️ **Customizable credentials:** Pre-defined fake user accounts for realistic interaction.  
-- 📜 **Command handling:** Basic commands like `pwd`, `ls`, `cd`, and `cat` for an interactive shell experience.  
-- 📊 **Activity logging:** Track all connection attempts and commands issued by attackers.  
-- 🚀 **Easy setup:** Quickly deploy on any machine to start analyzing unauthorized SSH attempts.  
+-  **Simulated SSH environment:** Mimics an authentic SSH server experience.  
+-  **Customizable credentials:** Pre-defined fake user accounts for realistic interaction.  
+-  **Command handling:** Basic commands like `pwd`, `ls`, `cd`, and `cat` for an interactive shell experience.  
+-  **Activity logging:** Track all connection attempts and commands issued by attackers.  
+-  **Easy setup:** Quickly deploy on any machine to start analyzing unauthorized SSH attempts.  
 
 ---
 
-## 📦 Requirements  
+##  Requirements  
 
 - Python 3.x  
 - Required libraries:
@@ -36,7 +36,7 @@ cd ShadowSSH
 chmod +x install.sh
 sudo ./install.sh
 
-🛠️ Customization
+Customization
 You can modify the following aspects to tailor the honeypot to your needs:
 
 Credentials: Update the valid_credentials dictionary in the code to add or change fake accounts.
